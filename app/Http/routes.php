@@ -22,3 +22,8 @@ Route::post('auth/register', 'Auth\AuthController@postRegister');
 
 /*** USERS ***/
 Route::get('/profile/{id}', 'UsersController@show');
+
+/*** CLIENTS ***/
+Route::get('/clients', 'ClientController@index');
+Route::get('/clients/new', 'ClientController@create');
+Route::post('/clients/new', 'ClientController@store');
