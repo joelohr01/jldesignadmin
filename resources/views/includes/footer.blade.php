@@ -20,6 +20,8 @@
 <script src="/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
 <script src="/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
 <script src="/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<script src="/js/sweetalert-dev.js"></script>
+@include('flash')
 <!-- END CORE PLUGINS -->
 <!-- BEGIN THEME GLOBAL SCRIPTS -->
 <script src="/global/scripts/app.min.js" type="text/javascript"></script>

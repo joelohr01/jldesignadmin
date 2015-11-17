@@ -15,7 +15,7 @@
 </div>
     <ul id="blah">
         @foreach($clients as $client)
-            <li>{{ $client->client_name }}</li>
+            <li><a href="#">{{ $client->client_name }}</a></li>
         @endforeach
     </ul>
 </div>

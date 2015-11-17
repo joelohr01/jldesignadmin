@@ -20,6 +20,7 @@
     <link href="/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
     <link href="/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/css/sweetalert.css">
     <!-- END GLOBAL MANDATORY STYLES -->
     <!-- BEGIN THEME GLOBAL STYLES -->
     <link href="/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
