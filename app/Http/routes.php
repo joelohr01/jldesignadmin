@@ -27,3 +27,4 @@ Route::get('/profile/{id}', 'UsersController@show');
 Route::get('/clients', 'ClientController@index');
 Route::get('/clients/new', 'ClientController@create');
 Route::post('/clients/new', 'ClientController@store');
+Route::get('/clients/{client_name}', 'ClientController@show');

@@ -25,6 +25,14 @@
                         <label>Client Name</label>
                     </div>
                     <div class="form-group form-md-line-input form-md-floating-label">
+                        <input type="text" class="form-control" name="client_first_name" value="{{ old('client_first_name') }}">
+                        <label>Client First Name</label>
+                    </div>
+                    <div class="form-group form-md-line-input form-md-floating-label">
+                        <input type="text" class="form-control" name="client_last_name" value="{{ old('client_last_name') }}">
+                        <label>Client Last Name</label>
+                    </div>
+                    <div class="form-group form-md-line-input form-md-floating-label">
                         <input type="text" class="form-control" name="client_address" value="{{ old('client_address') }}">
                         <label>Client Address</label>
                     </div>
